@@ -1,0 +1,21 @@
+2023-10-29 23:38:26,114 [main] ERROR    com.maveric.quickery.LoggingTest - i am error
+2023-10-30 03:44:51,589 [main] INFO     com.maveric.ui.AppClient - ************* Register Customer *************
+2023-10-30 03:44:51,592 [main] INFO     com.maveric.ui.AppClient - Details of customer registered: Customer:id=1, firstName='Linita', lastName='Lyle'
+2023-10-30 03:44:51,592 [main] INFO     com.maveric.ui.AppClient - Details of customer registered: Customer:id=2, firstName='Bhavitha', lastName='Reddy'
+2023-10-30 03:44:51,593 [main] INFO     com.maveric.ui.AppClient - Details of customer registered: Customer:id=3, firstName='Samuel', lastName='Prem'
+2023-10-30 03:44:51,593 [main] INFO     com.maveric.ui.AppClient - Details of customer registered: Customer:id=4, firstName='Komala', lastName='Komal'
+2023-10-30 03:44:51,593 [main] INFO     com.maveric.ui.AppClient - Details of customer registered: Customer:id=5, firstName='Sammy', lastName='Daniel'
+2023-10-30 03:44:51,593 [main] DEBUG    com.maveric.ui.AppClient - EXCEPTION!!! Name cannot be empty
+2023-10-30 03:44:51,593 [main] DEBUG    com.maveric.ui.AppClient - EXCEPTION!!! Name cannot be empty
+2023-10-30 03:44:51,593 [main] INFO     com.maveric.ui.AppClient - 
+Details of all registered customers....
+2023-10-30 03:44:51,594 [main] INFO     com.maveric.ui.AppClient - 
+************* Find Customer by Id *************
+2023-10-30 03:44:51,596 [main] INFO     com.maveric.ui.AppClient - Details of customer with id 2 is Customer:id=2, firstName='Bhavitha', lastName='Reddy'
+2023-10-30 03:44:51,596 [main] DEBUG    com.maveric.ui.AppClient - EXCEPTION!!! Customer id 0 is invalid...
+2023-10-30 03:44:51,596 [main] INFO     com.maveric.ui.AppClient - 
+************* Find Customer Starting with... *************
+2023-10-30 03:44:51,596 [main] INFO     com.maveric.ui.AppClient - Details of customers whose name starts with Sam
+2023-10-30 03:44:51,597 [main] DEBUG    com.maveric.ui.AppClient - [Customer:id=3, firstName='Samuel', lastName='Prem', Customer:id=5, firstName='Sammy', lastName='Daniel']
+2023-10-30 03:44:51,598 [main] DEBUG    com.maveric.ui.AppClient - EXCEPTION!!! Insufficient text for search!!!
+2023-10-30 03:44:51,598 [main] DEBUG    com.maveric.ui.AppClient - EXCEPTION!!!No Customers found!!
